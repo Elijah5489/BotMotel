@@ -1,0 +1,10 @@
+# flaskapp.fcgi
+import sys
+import os
+from flup.server.fcgi import WSGIServer
+from Bot_Motel import app as application
+
+sys.path.insert(0, os.path.dirname(__file__))
+
+if __name__ == '__main__':
+    WSGIServer(application).run()

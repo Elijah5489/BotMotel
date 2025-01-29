@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Not Found</title>
+    <link rel="stylesheet" href="/static/styles.css">
+    <script src="/static/bot_motel.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+        .invisible {
+            visibility: hidden;
+        }
+    </style>
+</head>
+<body>
+    <div class="background-text">JESSE IS GREAT! JESSE IS GREAT! JESSE IS GREAT! JESSE IS GREAT!</div>
+    <h1>Oops! That page doesn’t exist.</h1>
+    <form id="search-form" action="/search" method="get">
+        <input type="text" name="query" placeholder="Search...">
+        <button type="submit">Search</button>
+        <input type="hidden" name="honeypot" value="">
+    </form>
+    <div id="garbage-content">
+        <!-- Garbage content will be dynamically inserted here -->
+    </div>
+    <p><a href="/">Return to Homepage</a></p>
+</body>
+</html>

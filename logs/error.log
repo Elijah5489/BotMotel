@@ -1,0 +1,2 @@
+2025/01/24 19:24:24 [emerg] 221532#221528: invalid log level "Motel/logs/error.log" in C:\nginx\conf\nginx.conf:36
+2025/01/24 19:24:58 [emerg] 219172#134376: CreateDirectory() "C:\Code\Bot Motel/temp/uwsgi_temp" failed (3: The system cannot find the path specified)

@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: monospace;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Background Text */
+.background-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);
+    font-size: 4rem;
+    color: rgba(255, 0, 0, 0.8); /* Red color */
+    white-space: nowrap;
+    pointer-events: none; /* Prevent interaction */
+    z-index: -1;
+}
+
+/* Search Form */
+#search-form {
+    margin: 20px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Invisible Class */
+.invisible {
+    visibility: hidden;
+}
+
+/* Additional Content Styling */
+#random-content, #garbage-content {
+    margin: 20px 0;
+}
+
+#search-results p {
+    margin: 10px 0;
+}

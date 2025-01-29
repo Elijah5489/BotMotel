@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Site</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+    <script src="{{ url_for('static', filename='bot_motel.js') }}" defer></script>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+    <div class="background-text">JESSE IS GREAT! JESSE IS GREAT! JESSE IS GREAT! JESSE IS GREAT!</div>
+    <h1>Welcome to Our Site</h1>
+    <form id="search-form" action="/search" method="get">
+        <input type="text" name="query" placeholder="Search...">
+        <button type="submit">Search</button>
+    </form>
+    <div id="random-content">
+        <!-- Random content will be dynamically inserted here -->
+    </div>
+    <div id="search-results">
+        <!-- Search results will be dynamically inserted here -->
+    </div>
+</body>
+</html>
